@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <!-- header items -->
+        <item
+            android:id="@+id/nav_home_fragment"
+            android:icon="@mipmap/ic_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_email_fragment"
+            android:icon="@mipmap/ic_mail2"
+            android:title="Email"/>
+        <item
+            android:id="@+id/nav_calendar_fragment"
+            android:icon="@mipmap/ic_calendar"
+            android:title="Calendar"/>
+    </group>
+    <!-- create subitems -->
+    <item android:title="Sub items">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_bluetooth_fragment"
+                    android:icon="@mipmap/ic_bluetooth"
+                    android:title="Bluetooth" />
+                <item
+                    android:id="@+id/nav_location_fragment"
+                    android:icon="@mipmap/ic_location"
+                    android:title="Location" />
+                <item
+                    android:id="@+id/nav_wifi_fragment"
+                    android:icon="@mipmap/ic_wifi"
+                    android:title="Wifi" />
+                <item
+                    android:id="@+id/nav_notification_fragment"
+                    android:icon="@mipmap/ic_notification"
+                    android:title="Notification" />
+            </group>
+        </menu>
+    </item>
+</menu>
